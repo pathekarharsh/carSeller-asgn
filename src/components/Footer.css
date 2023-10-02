@@ -1,0 +1,36 @@
+/* Footer.css */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #cdeeff;
+    margin: 1rem 12rem;
+    border-radius: 20px;
+    color: #222;
+  }
+  
+  .page-list {
+    list-style: none;
+    
+    display: flex;
+    padding: 0;
+  }
+  
+  .page-list li {
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }
+  
+  .page-list li.active-page {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  

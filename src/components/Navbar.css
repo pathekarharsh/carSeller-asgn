@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5rem;
+    background-color: #AED2FF;
+  }
+  
+  .navbar-nav{
+    gap: 30px;
+  }
+
+  .nav-item li{
+    color: #222;
+  }
+
+  .dropdown-menu {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  /* Style for the dropdown items */
+  .dropdown-item {
+    background-color: transparent;
+    color: #333;
+    transition: background-color 0.3s ease;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #AED2FF; 
+    text-decoration: none;
+  }
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  width: 250px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.search-icon {
+  color: #aaa;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
