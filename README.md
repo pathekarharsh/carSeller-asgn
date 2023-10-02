@@ -20,3 +20,23 @@ Before you begin, ensure you have the following installed on your system:
 
    ```shell
    git clone https://github.com/yourusername/car-search-paginate.git
+
+2. **Navigate to the Project Directory**
+
+Change your working directory to the project folder:
+
+cd car-search-paginate
+
+3. **Install the project dependencies**
+
+npm install
+
+Once the installation is complete, you can start the application:
+npm start
+The application will run locally on your computer, typically at http://localhost:3000.
+
+Usage
+Open your web browser and go to http://localhost:3000.
+Use the search input to search for cars by title.
+The results will be displayed, and you can paginate through them using the page buttons at the bottom.
+Enjoy exploring the car listings!
