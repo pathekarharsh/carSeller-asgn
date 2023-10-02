@@ -24,15 +24,20 @@ Before you begin, ensure you have the following installed on your system:
 2. **Navigate to the Project Directory**
 
 Change your working directory to the project folder:
-
+```shell
 cd car-search-paginate
+```
 
 3. **Install the project dependencies**
 
+```shell
 npm install
+```
 
 Once the installation is complete, you can start the application:
+```shell
 npm start
+```
 The application will run locally on your computer, typically at http://localhost:3000.
 
 Usage
